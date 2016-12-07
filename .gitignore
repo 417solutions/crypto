@@ -1,0 +1,14 @@
+# Exclude the dev folder
+dev/*
+
+# Exclude all expensive media
+*.mpg
+*.avi
+*.mp4
+*.psd
+
+# Exclude all log files
+*.log
+
+# Exclude htaccess file
+/.htaccess
