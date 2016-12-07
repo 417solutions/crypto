@@ -1,11 +1,26 @@
+# Exclude compiled source code
+*.exe
+*.com
+*.dll
+
+
 # Exclude the dev folder
 dev/*
 
-# Exclude all expensive media
+# Exclude all large media
 *.mpg
 *.avi
 *.mp4
 *.psd
+*.zip
+*.7z
+*.tar
+*.rar
+*.gz
+
+# Exclude database files
+*.sql
+*.sqlite
 
 # Exclude all log files
 *.log
